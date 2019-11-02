@@ -10,6 +10,7 @@ import UIKit
 
 class TapViewController: UIViewController {
 
+    @IBOutlet weak var file: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         addTapGesture()
