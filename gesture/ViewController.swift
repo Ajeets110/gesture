@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         addPanGesture()
-        addTapGesture()
+        
         // Do any additional setup after loading the view.
     }
     
@@ -35,29 +35,7 @@ class ViewController: UIViewController {
         
         }
     
-    func addTapGesture() {
-        let tap = UITapGestureRecognizer(target: self, action: #selector(handleTap(recognizer:)))
-        self.view.addGestureRecognizer(tap)
-    }
-    
-     @objc func handleTap(recognizer: UITapGestureRecognizer) {
-        
-        recognizer.numberOfTouchesRequired = 2
-        if recognizer.state == .ended{
-        
-            self.view.backgroundColor = UIColor.black
-            
-            
-        }
-        
-//        if recognizer.state == .ended {      // Move the view down and to the right when tapped.
-//            let animator = UIViewPropertyAnimator(duration: 0.2, curve: .easeInOut, animations: {
-//                recognizer.view!.center.x += 100
-//                recognizer.view!.center.y += 100
-//            })
-//            animator.startAnimation()
-//        }
-    }
+   
     
     
     

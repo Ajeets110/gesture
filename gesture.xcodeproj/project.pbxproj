@@ -14,6 +14,7 @@
 		9BA31187236CF8C2005161D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA31185236CF8C2005161D7 /* LaunchScreen.storyboard */; };
 		9BA31192236CF8C2005161D7 /* gestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA31191236CF8C2005161D7 /* gestureTests.swift */; };
 		9BA3119D236CF8C2005161D7 /* gestureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3119C236CF8C2005161D7 /* gestureUITests.swift */; };
+		9BA311AB236D1734005161D7 /* TapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA311AA236D1734005161D7 /* TapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9BA31198236CF8C2005161D7 /* gestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA3119C236CF8C2005161D7 /* gestureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureUITests.swift; sourceTree = "<group>"; };
 		9BA3119E236CF8C2005161D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA311AA236D1734005161D7 /* TapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				9BA3117C236CF8BF005161D7 /* AppDelegate.swift */,
 				9BA3117E236CF8BF005161D7 /* ViewController.swift */,
+				9BA311AA236D1734005161D7 /* TapViewController.swift */,
 				9BA31180236CF8BF005161D7 /* Main.storyboard */,
 				9BA31183236CF8C2005161D7 /* Assets.xcassets */,
 				9BA31185236CF8C2005161D7 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				9BA3117F236CF8BF005161D7 /* ViewController.swift in Sources */,
 				9BA3117D236CF8BF005161D7 /* AppDelegate.swift in Sources */,
+				9BA311AB236D1734005161D7 /* TapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
